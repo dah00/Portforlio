@@ -1,0 +1,9 @@
+.profile-container {
+  height: 80vh;
+  background-color: bisque;
+}
+
+img {
+  border-radius: 50%;
+  width: 3rem;
+}
