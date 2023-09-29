@@ -1,46 +1,50 @@
-.menu-bar{
-    width: 2rem;
-    background-color: grey;
-    height: 3px;
-    border-radius: 0.6em;
+.nav-container {
+  height: 10vh;
+}
+
+.menu-bar {
+  width: 2rem;
+  background-color: grey;
+  height: 3px;
+  border-radius: 0.6em;
 }
 
 /* clicked */
-.burger.clicked:nth-child(1){
-    transform: rotate(45deg) translate(0.4em, 0.5em);
-    transition: ease-out 0.5s;
+.burger.clicked:nth-child(1) {
+  transform: rotate(45deg) translate(0.4em, 0.5em);
+  transition: ease-out 0.5s;
 }
 
-.burger.clicked:nth-child(2){
-    transform: scale(0.1);
-    transition: ease-out 0.5s;
+.burger.clicked:nth-child(2) {
+  transform: scale(0.1);
+  transition: ease-out 0.5s;
 }
 
-.burger.clicked:nth-child(3){
-    transform: rotate(-45deg) translate(0.4em, -0.55em);
-    transition: ease-out 0.5s;
+.burger.clicked:nth-child(3) {
+  transform: rotate(-45deg) translate(0.4em, -0.55em);
+  transition: ease-out 0.5s;
 }
 
 /* Unclicked */
 .burger.unclicked:nth-child(1) {
-    transform: rotate(0) translate(0);
-    transition: ease-out 0.5s;
+  transform: rotate(0) translate(0);
+  transition: ease-out 0.5s;
 }
 
 .burger.unclicked:nth-child(2) {
-    transform: scale(1);
-    transition: ease-out 0.5s;
+  transform: scale(1);
+  transition: ease-out 0.5s;
 }
 
 .burger.unclicked:nth-child(3) {
-    transform: rotate(0) translate(0);
-    transition: ease-out 0.5s;
+  transform: rotate(0) translate(0);
+  transition: ease-out 0.5s;
 }
 
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
 
-.visible{
-    display: block;
+.visible {
+  display: block;
 }

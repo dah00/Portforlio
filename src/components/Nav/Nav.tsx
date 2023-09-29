@@ -18,7 +18,7 @@ function Nav() {
   };
 
   return (
-    <div className="flex justify-around items-center h-20 bg-slate-400">
+    <div className="nav-container flex justify-around items-center bg-slate-400">
       <h1 className="">Obeda Velonjatovo</h1>
       <div
         className="burger-menu flex flex-col justify-between h-6 cursor-pointer"
@@ -28,7 +28,7 @@ function Nav() {
         <span className={`menu-bar ${burgerStyle}`}></span>
       </div>
       <ul
-        className={`${menuVisibilty} list-none w-28 h-36 space-y-3 p-1 absolute right-12 top-20 shadow-md rounded-lg`}>
+        className={`${menuVisibilty} bg-white list-none w-32 h-36 space-y-3 p-2 absolute right-12 top-20 shadow-md rounded-lg`}>
         <li>About</li>
         <li>Experience</li>
         <li>Projects</li>
