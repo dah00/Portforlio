@@ -48,3 +48,49 @@
 .visible {
   display: block;
 }
+
+
+.menu-list li a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 767px){
+  .burger-menu {
+    position: relative;
+  }
+
+  .menu-list{
+    padding: 8px 10px;
+    position: absolute;
+    top: 65px;
+    right: 130px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 2px var(--grey);
+    opacity: 900;
+  }
+
+  .menu-list li {
+    margin: 5px;
+  }
+
+  .menu-list li a:hover{
+    color: var(--grey);
+  }
+}
+
+@media screen and (min-width: 768px){
+  .menu-list{
+    font-size: 1.2rem;
+    list-style-type: none;
+    display: flex; 
+    flex-direction: row;
+    gap: 32px;
+  }
+  .menu-list li{
+    padding: 0px;
+  }
+}

@@ -18,21 +18,21 @@ function Nav() {
   };
 
   return (
-    <div className="nav-container flex justify-around items-center bg-slate-400">
-      <h1 className="">Obeda Velonjatovo</h1>
+    <div className="nav-container flex justify-around items-center">
+      <h1 className="">OV</h1>
       <div
-        className="burger-menu flex flex-col justify-between h-6 cursor-pointer"
+        className="burger-menu flex flex-col justify-between h-6 cursor-pointer d-md-none"
         onClick={toggleMenu}>
         <span className={`menu-bar ${burgerStyle}`}></span>
         <span className={`menu-bar ${burgerStyle}`}></span>
         <span className={`menu-bar ${burgerStyle}`}></span>
       </div>
       <ul
-        className={`${menuVisibilty} bg-white list-none w-32 h-36 space-y-3 p-2 absolute right-12 top-20 shadow-md rounded-lg`}>
-        <li>About</li>
-        <li>Experience</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        className={`${menuVisibilty} menu-list `}>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   );

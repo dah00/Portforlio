@@ -1,11 +1,38 @@
 .profile-container {
   height: 90vh;
-  background-color: bisque;
+  margin-top: 125px;
+  gap: 40px;
 }
 
-img {
+.profile-image {
   border-radius: 50%;
   width: 300px;
   height: 300px;
   object-fit: cover;
+}
+
+.profile-intro{
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.resume{
+  background-color: var(--grey);
+  padding: 5px 12px;
+  border-radius: 15px;
+}
+
+.resume:hover{
+  color: white;
+  background-color: black;
+}
+
+/* Media queries */
+/* Make image smaller on small screen */
+@media screen and (max-width: 767px) {
+  .profile-image{
+    width: 190px;
+    height: 190px;
+  }
 }
