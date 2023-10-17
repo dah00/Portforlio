@@ -1,7 +1,7 @@
 .profile-container {
   height: 90vh;
-  margin-top: 125px;
-  gap: 40px;
+  margin-top: 130px;
+  /* gap: 40px; */
 }
 
 .profile-image {
@@ -34,5 +34,12 @@
   .profile-image{
     width: 190px;
     height: 190px;
+  }
+}
+
+/* Medium screen and larger */
+@media screen and (min-width: 768px){
+  .profile-intro{
+    flex-direction: row;
   }
 }

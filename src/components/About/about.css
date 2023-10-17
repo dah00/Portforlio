@@ -1,0 +1,10 @@
+.about-container{
+    width: 80vw;
+    margin: auto;
+}
+
+.divider{
+    width: 2px;
+    height: 100vh;
+    background-color: black;
+}
