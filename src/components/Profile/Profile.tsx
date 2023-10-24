@@ -8,7 +8,7 @@ function Profile() {
   return (
     // flex flex-col gap-y-9 items-center
     <div className="profile-container d-flex flex-column align-items-center gap-5">
-      <h1>Welcome to my Portfolio :)</h1>
+      <h1>Welcome to my Portfolio  😀</h1>
       <div className="profile-intro d-flex gap-5">
         <img src="./prof_pic.jpeg" alt="profile" className="profile-image p-2 g-col-6" />
         <div className="profile-info d-flex flex-column align-items-center gap-3">

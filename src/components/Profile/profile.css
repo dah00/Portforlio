@@ -1,5 +1,5 @@
 .profile-container {
-  height: 90vh;
+  height: 73vh;
   margin-top: 130px;
   /* gap: 40px; */
 }
@@ -11,19 +11,19 @@
   object-fit: cover;
 }
 
-.profile-intro{
+.profile-intro {
   flex-direction: column;
   align-items: center;
   gap: 5px;
 }
 
-.resume{
+.resume {
   background-color: var(--grey);
   padding: 5px 12px;
   border-radius: 15px;
 }
 
-.resume:hover{
+.resume:hover {
   color: white;
   background-color: black;
 }
@@ -31,15 +31,15 @@
 /* Media queries */
 /* Make image smaller on small screen */
 @media screen and (max-width: 767px) {
-  .profile-image{
+  .profile-image {
     width: 190px;
     height: 190px;
   }
 }
 
 /* Medium screen and larger */
-@media screen and (min-width: 768px){
-  .profile-intro{
+@media screen and (min-width: 768px) {
+  .profile-intro {
     flex-direction: row;
   }
 }
