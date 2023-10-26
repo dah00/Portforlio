@@ -21,7 +21,7 @@ function About() {
         </Col>
         <Col sm={12} md={6}>
           <h2 className="text-center mb-5">Skills</h2>
-          <div className="skills-container d-flex flex-wrap justify-content-around column-gap-5">
+          <div className="skills-container d-flex flex-wrap justify-content-around column-gap-5 row-gap-4">
             <figure className="language">
               <i
                 className="devicon-react-original colored"
