@@ -3,7 +3,8 @@ import Nav from "./components/Nav/Nav";
 import Profile from "./components/Profile/Profile";
 import "./App.css";
 import About from "./components/About/About";
-import Experience from "./components/Experience/Experience";
+import Project from "./components/Project/Project";
+import { projects } from "./components/Project/projects_list";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Nav />
       <Profile />
       <About />
-      <Experience />
+      <Project />
     </div>
   );
 }
