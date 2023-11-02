@@ -4,7 +4,6 @@ import Profile from "./components/Profile/Profile";
 import "./App.css";
 import About from "./components/About/About";
 import Project from "./components/Project/Project";
-import { projects } from "./components/Project/projects_list";
 
 function App() {
   return (
